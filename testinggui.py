@@ -4,7 +4,7 @@ import socket
 import serial
 import time
 
-IP_ADDRESS = '192.168.1.16'
+IP_ADDRESS = '192.168.50.157'
 PORT = 5005
 
 control_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -44,8 +44,8 @@ url = "http://{}:8080/" #Replace with the ip of stream
 
 
 def openweb():
-    url = "http://{}:8080/" 
     ip = e.get()
+    url = f"http://{ip}:8080/" 
     url = url.format(ip)
     webbrowser.open(url,new=new)
 

@@ -1,7 +1,7 @@
 import socket
 
 # Define IP address and port number
-IP_ADDRESS = '192.168.50.157'
+IP_ADDRESS = '192.168.1.16'
 PORT = 5005
 
 # Create a socket object

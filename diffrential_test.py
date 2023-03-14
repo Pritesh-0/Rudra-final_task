@@ -28,7 +28,7 @@ def differential_drive(linear_speed, angular_speed):
 
 
 IP_ADDRESS = '192.168.50.157'
-PORT = 5004
+PORT = 5005
 
 # Create a socket object
 rover_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
